@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".StartActivity">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/app_name"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:fontFamily="@font/montserrat_black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/et_playerOne"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:background="@drawable/purple_border"
+                android:maxLines="1"
+                android:hint="@string/hint_playerOne"
+                android:textColor="@color/purple"
+                android:fontFamily="@font/montserrat_semibolditalic"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textNoSuggestions"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/x_icon"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/et_playerTwo"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:background="@drawable/purple_border"
+                android:maxLines="1"
+                android:hint="@string/hint_playerTwo"
+                android:textColor="@color/purple"
+                android:fontFamily="@font/montserrat_semibolditalic"
+                android:imeOptions="actionDone"
+                android:inputType="textCapSentences|textNoSuggestions"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/o_icon"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bt_smallField"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/purple"
+                    app:strokeColor="@color/purple"
+                    app:strokeWidth="2dp"
+                    android:textSize="18sp"
+                    android:text="@string/bt_smallField"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bt_largeField"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/white"
+                    android:textSize="18sp"
+                    android:textColor="@color/purple"
+                    app:strokeColor="@color/purple"
+                    app:strokeWidth="2dp"
+                    android:text="@string/bt_largeField"
+                    android:fontFamily="@font/montserrat_bold"/>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="60dp"
+                android:id="@+id/bt_start"
+                android:backgroundTint="@color/purple"
+                android:textSize="18sp"
+                android:text="@string/bt_start"
+                android:fontFamily="@font/montserrat_black"
+                app:cornerRadius="20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

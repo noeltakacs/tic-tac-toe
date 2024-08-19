@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="hint_playerOne">Zadaj meno 1. hráča</string>
+    <string name="hint_playerTwo">Zadaj meno 2. hráča</string>
+    <string name="bt_start">ZAČAŤ HRU</string>
+    <string name="tv_playerOne">Hráč 1</string>
+    <string name="tv_playerTwo">Hráč 2</string>
+    <string name="tv_result">Výsledok</string>
+    <string name="bt_mainMenu">Hlavné Menu</string>
+    <string name="bt_restartGame">Reštartovať Hru</string>
+    <string name="bt_playAgain">Hrať Znova</string>
+    <string name="bt_resume">Pokračovať</string>
+    <string name="name_alert">Mená hráčov musia obsahovať aspoň jedno písmeno</string>
+    <string name="result_draw">Remíza</string>
+    <string name="result_win">je Víťaz!</string>
+    <string name="result_paused">Pozastavené</string>
+</resources>

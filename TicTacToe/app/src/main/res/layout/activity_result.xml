@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_result"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="@string/tv_result"
+            android:textColor="@color/purple"
+            android:textSize="28sp"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bt_resume"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            app:cornerRadius = "20dp"
+            android:backgroundTint="@color/purple"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/bt_resume"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bt_playAgain"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            app:cornerRadius = "20dp"
+            android:backgroundTint="@color/purple"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/bt_playAgain"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bt_restartGame"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            app:cornerRadius = "20dp"
+            android:backgroundTint="@color/purple"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/bt_restartGame"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bt_mainMenu"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            app:cornerRadius = "20dp"
+            android:backgroundTint="@color/purple"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/bt_mainMenu"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="hint_playerOne">Enter player 1 name</string>
+    <string name="hint_playerTwo">Enter player 2 name</string>
+    <string name="bt_start">START GAME</string>
+    <string name="bt_smallField" translatable="false">5 x 5</string>
+    <string name="bt_largeField" translatable="false">10 x 10</string>
+    <string name="tv_playerOne">Player 1</string>
+    <string name="tv_playerTwo">Player 2</string>
+    <string name="tv_timer" translatable="false">00:00:00</string>
+    <string name="tv_playerOneScore" translatable="false">0</string>
+    <string name="tv_playerTwoScore" translatable="false">0</string>
+    <string name="tv_result">Result</string>
+    <string name="bt_mainMenu">Main Menu</string>
+    <string name="bt_restartGame">Restart Game</string>
+    <string name="bt_playAgain">Play Again</string>
+    <string name="bt_resume">Resume</string>
+    <string name="name_alert">Player names must contain at least one letter</string>
+    <string name="result_draw">Draw!</string>
+    <string name="result_win">is the Winner!</string>
+    <string name="result_paused">Paused</string>
+
+</resources>
