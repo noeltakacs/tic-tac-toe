@@ -22,7 +22,7 @@
 
 ## 📲 How to download this app?
 You can easily download and install the APK file on your Android device:
-1. [Download the APK here.](https://github.com/noeltakacs/tic-tac-toe/blob/main/TicTacToe/app/release/TicTacToe.apk)
+1. Download the .apk file from the [releases](https://github.com/noeltakacs/tic-tac-toe/releases/tag/v1.0.0) section.
 2. Open the APK on your Android device and follow the installation instructions.
 
 Alternatively, you can download the source code and build the project yourself:
