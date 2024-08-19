@@ -1,7 +1,7 @@
 <h1 align="center">TicTacToe</h1>
 
 ## 🤔 What is this?
-<strong> TicTacToe is a classic game with a unique twist, designed specifically for Android. Unlike typical Tic Tac Toe apps, this version allows you to play on larger grids of 5x5 or 10x10, offering a more challenging and engaging experience. This app was one of my first ventures into mobile development, featuring several functionalities that enhance gameplay. </strong>
+<div align="center"><strong> TicTacToe is a classic game with a unique twist, designed specifically for Android. Unlike typical Tic Tac Toe apps, this version allows you to play on larger grids of 5x5 or 10x10, offering a more challenging and engaging experience. This app was one of my first ventures into mobile development, featuring several functionalities that enhance gameplay. </strong></div><br>
 
 <table>
   <tr>
