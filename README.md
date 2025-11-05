@@ -1,7 +1,7 @@
 <h1 align="center">TicTacToe</h1>
 
 ## 🤔 What is this?
-<div align="center"><strong> TicTacToe is a classic game with a unique twist, designed specifically for Android. Unlike typical Tic Tac Toe apps, this version allows you to play on larger grids of 5x5 or 10x10, offering a more challenging and engaging experience. This app was one of my first ventures into mobile development, featuring several functionalities that enhance gameplay. </strong></div><br>
+<div align="center"><strong> TicTacToe is a classic game with a modern twist — built specifically for Android. Unlike standard Tic Tac Toe apps, this version lets you play on expanded grids of 5x5 or even 10x10, creating a more challenging and engaging experience. This project was one of my first steps into mobile development, and it includes several features designed to make gameplay smooth and enjoyable. </strong></div><br>
 
 <table>
   <tr>
@@ -13,32 +13,38 @@
 </table>
 
 ## ✍️ What is the current functionality:
-- [x] Play on 5x5, or 10x10 grids for varied levels of difficulty.
-- [x] Local multiplayer mode - play against friends on the same device.
-- [x] Pause and resume your game at any time.
-- [x] Restart the game with ease, keeping track of wins and losses.
-- [x] Point counting system to track scores for both players.
-- [x] Simple, user-friendly interface.
+- [x] Play on 5x5 or 10x10 grids for a fresh take on the classic game.
+- [x] Local multiplayer mode – play against a friend on the same device.
+- [x] Pause and resume your game anytime.
+- [x] Restart easily while keeping track of scores.
+- [x] Points system that tracks wins and losses for both players.
+- [x] Simple, user-friendly interface designed for quick and fun gameplay.
 
 ## 📲 How to download this app?
-You can easily download and install the APK file on your Android device:
+You can download and install the app in two ways:
+
+🔹 Option 1: Install the APK
 1. Download the .apk file from the [releases](https://github.com/noeltakacs/tic-tac-toe/releases/tag/v1.0.0) section.
 2. Open the APK on your Android device and follow the installation instructions.
 
-Alternatively, you can download the source code and build the project yourself:
+🔹 Option 2: Build from source
 1. Clone the repository or download the ZIP file.
 2. Open the project in ``Android Studio``.
 3. Build and run the app on your Android device or emulator.
 
 ## 🫶 How can you help?
-This project is special to me as it represents the beginning of my journey into mobile development. That said, it's still far from perfect. There are a few areas where I could use some help:
+This project is very close to my heart, as it represents the beginning of my journey into Android development.
+While it’s functional, there’s plenty of room for improvement — and I’d love your help in the following areas:
 
-<strong>Documentation:</strong> The code lacks proper documentation and comments, making it difficult for others to contribute. Any help in this area would be greatly appreciated.<br><br>
-<strong>Design Improvements:</strong> The current design is quite plain. If you have a knack for UI/UX, I'd love some assistance in making the app more visually appealing.<br><br>
-<strong>Feature Enhancements:</strong> Have ideas for new features? Feel free to suggest or implement them!
+- 🧾 Documentation: The code could use clearer documentation and comments to make contributing easier.
+
+- 🎨 Design: The UI is simple but could benefit from a more polished, modern look.
+
+- 🚀 New features: If you have creative ideas to make the game better, I’d be thrilled to see your contributions!
 
 ## 📠 License
 
-TicTacToe is a free and open source software. 
+TicTacToe is free and open-source software.
 
-I very much appreciate any contributions to this project as I encourage you to fork it and build something new!
+Feel free to fork the project, modify it, and build something new.
+Your contributions and feedback are always appreciated!
